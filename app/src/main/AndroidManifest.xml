@@ -11,15 +11,28 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
+        android:name=".LinArApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".usercontent.UserOptionActivity"></activity>
+        <activity android:name=".usercontent.UserContactActivity" />
+        <activity android:name=".usercontent.UserAgendaActivity" />
+        <activity android:name=".usercontent.UserGalleryActivity" />
+        <activity android:name=".usercontent.PersonalInfoActivity" />
+        <activity android:name=".GuideActivity" />
+        <activity
+            android:name=".ARActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

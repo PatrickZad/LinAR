@@ -1,4 +1,27 @@
 <resources>
-    <string name="app_name">LinAR</string>
-    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="app_name">韩国行</string>
+    <string name="ai_hello_zn">“你好呀！”</string>
+    <string name="ai_hello_kr">안녕하세요!</string>
+    <string name="ai_ask_zn">“现在想去哪里呢？”</string>
+    <string name="ai_ask_kr">저랑 같이 여행가고 싶어요!</string>
+    <string name="ai_ask_1">“为你推荐”</string>
+    <string name="ai_speakloud">“漫画咖啡厅”</string>
+    <string name="ai_input_hint_zn">有话对我说？</string>
+    <string name="ai_input_hint_kr">어떻게 도와드릴까요?</string>
+    <string name="main_title">LinAR</string>
+    <string name="subtitle_content">出门去哪</string>
+    <string name="subtitle_guide">我的导游</string>
+    <string name="menu_person">我的资料</string>
+    <string name="user_nickname">在路上的小朱</string>
+    <string name="user_intro">道路千万条，快乐第一条~</string>
+    <string name="user_gallery">旅行日记</string>
+    <string name="user_canlender">今日行程</string>
+    <string name="user_contacts">常用联系人</string>
+    <string name="user_option">设置</string>
+    <string name="user_quit">退出</string>
+    <string name="user_ask">“附近的咖啡厅”</string>
+    <string name="ai_reply">“我们出发吧”</string>
+    <string name="coffe">漫画咖啡厅(延南洞)</string>
+    <string name="map_intro0">首尔市麻浦区延南洞</string>
+    <string name="map_intro1">地铁2号线弘大入口站3号出口</string>
 </resources>
